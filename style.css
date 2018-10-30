@@ -1,0 +1,255 @@
+*{
+	margin:0;
+}
+.two-top-block{
+	width: 100%;
+	height: 700px;
+	background-color: black;
+	position: absolute;
+	z-index: 1;
+	opacity: 0.3;
+	}
+
+.first-top-block{
+	background-image: url(image/2010721678.jpg);
+	height: 700px;
+	width: 100%;
+	position: relative;
+ background-size: contain;
+  background-repeat: round;
+	background-attachment: fixed;
+}
+
+.big-text{
+
+
+}
+
+header{ 
+position: absolute;
+z-index: 100;
+	width:100%;
+	display: block;
+	overflow: auto;
+	background-color: grey;
+	position: fixed;
+	 
+	
+  
+
+
+ 
+}
+.nav{
+text-align: center;
+ background-color:rgba(255,0,0,0.7)
+max-width: 100%
+
+}
+.nav li {   
+	display: inline-block;
+	font-size: 20px;
+	padding: 20px;
+	width: 200px;
+	font-family: 'Ubuntu', sans-serif;
+	
+   
+
+
+
+}
+.nav li:hover{
+	background-color: red;
+	transition: 0.5s;
+}
+.logotip{
+	/*display: flex;*/
+	display: block;
+	height: 40px; width: 40px;
+    padding-top:50px;
+    position: absolute;
+    z-index: 3;
+    bottom: 10px;
+    margin-left: 25px
+}
+.logo-text{
+	overflow: auto;
+	position: absolute;
+	
+	z-index: 4;
+	display: block;
+	margin-top: 150px;
+	margin-left: 300px;
+}
+.block-clock{
+	 top:50%;
+    left:44.8%;
+   
+    width: 50px;
+    height:100px;
+    position: absolute;
+    z-index: 4
+
+}
+.strelka{
+    z-index: 4;
+    display: block;
+    position: absolute;
+    transition: all 1s ease;
+    height: 50px; width: 50px;
+    top:70%;
+  
+    left:60%;
+    border-color: black;
+
+}
+/*.van {
+    top: 70%;
+    left: 42%;
+}*/
+#axis:hover .move-down{
+    transform: translate(0,30px) ;
+}
+/*TWO PART*/
+/*---------------------------------------------------*/
+.two-botom-block{
+	height: 700px;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	z-index: 1;
+	opacity: 0.3;
+}
+.good-otstup{
+	max-height: 100%;
+	width:50px;
+	}
+/*.botom-topi-block{
+	background-image: url(image/hiker-1149877_1280.jpg);
+	height: auto;
+	width:100%;
+	position: relative;
+ background-size: contain;
+  background-repeat: round;
+	background-attachment: fixed;
+}*/
+.goden{
+	/*overflow: auto;*/
+	position: absolute;
+	z-index: 4;
+	display: block;
+	margin-top: 200px;
+	margin-left: 270px;
+}
+#goden{}
+.strelka2{
+    z-index: 4;
+    display: block;
+    position: absolute;
+    transition: all 1s ease;
+    height: 50px; width: 50px;
+    top:85%;
+    left:43.6%;
+}
+#apik:hover .move-down{
+    transform: translate(0,30px) ;
+}
+.botom-topi-block{
+	background-image: url(image/hiker-1149877_1280.jpg);
+	height: 700px;
+	width:100%;
+	position: relative;
+ background-size: contain;
+  background-repeat: round;
+}
+
+/*------------------------------------------------*/
+.three-tw-botom-block{
+	height: 570px;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	z-index: 1;
+	opacity: 0.3;
+}
+.static{
+	position: absolute;
+	z-index: 4;
+	display: block;
+	margin-top: 130px;
+	margin-left: 130px;
+}
+.elps{
+	position: absolute;
+	z-index: 4;
+	display: block;
+	margin-top: 350px;
+	margin-left: 80px;
+}
+.strelka3{
+    z-index: 4;
+    display: block;
+    position: absolute;
+    transition: all 1s ease;
+    height: 50px; width: 50px;
+    top:75%;
+    left:43.6%;
+    color: white;
+}
+#apis:hover .move-down{
+    transform: translate(0,30px) ;
+}
+.three-botom-block{
+	background-image: url(image/map-index-life.jpg);
+	height: 570px;
+	width: 100%;
+	position: relative;
+	background-size: contain;
+	background-repeat: round;
+
+}
+/*-------------------------------------*/
+.fou-tw-botom-block{
+	height: 590px;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	z-index: 1;
+	opacity: 0.3;
+}
+.pops{
+	position: absolute;
+	z-index: 4;
+	display: block;
+	margin-top: 60px;
+	margin-left: 130px;
+}
+.img2{
+
+	position: absolute;
+	z-index: 4;
+	display:block;
+	margin-top: 480px;
+	margin-left: 470px;
+	filter: drop-shadow(0px 0px 0px transparent);
+    
+}
+
+.fou-botom-block{
+	background-image: url(image/final-slide.png);
+	height: 590px;
+	width: 100%;
+	position: relative;
+	background-size: contain;
+	background-repeat: round;
+}
+/*-----------------------------------------------*/
+footer{
+	background-color:#778899;
+	height: 200px;
+	width: 100%;
+}
+
+
+
+         
